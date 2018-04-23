@@ -10,14 +10,18 @@
 		<Button id="buttonId0" class="buttonClass" onclick="javascript:myButton.click0()">按键0</Button>
 		
 		<p>点击按键1 执行android中的 public void click1(){}方法</p>
-		<Button id="buttonId1" class="buttonClass" onclick="javascript:myButton.click1()">按键1
-</Button>
+		<Button id="buttonId1" class="buttonClass" onclick="javascript:myButton.click1()">按键1</Button>
 
 		<script>
 			function setRed() {
 				//这个方法设置 id 为 ptext 的元素的背景色为红色
 				var a = document.getElementById('ptext');
 				a.style.backgroundColor = "#F00";
+			}
+			function setBlue() {
+				//这个方法设置 id 为 ptext 的元素的背景色为蓝色
+				var a = document.getElementById('ptext');
+				a.style.backgroundColor = "#00F";
 			}
 		</script>
 	</body>

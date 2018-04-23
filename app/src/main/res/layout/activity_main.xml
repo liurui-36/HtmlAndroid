@@ -19,10 +19,16 @@
         android:layout_height="240dp" />
 
     <Button
-        android:id="@+id/btn"
+        android:id="@+id/btn1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="按钮" />
+        android:text="红" />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="蓝" />
 
 
 </LinearLayout>
